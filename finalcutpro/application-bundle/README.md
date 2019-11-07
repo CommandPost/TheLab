@@ -7,6 +7,12 @@ It's interesting to note that most of the Frameworks contained within Final Cut 
 
 ---
 
+## What is a Framework?
+
+A framework is a bundle (a structured directory) that contains a dynamic shared library along with associated resources, such as `.nib` files, image files, and header files. When you develop an application, your project links to one or more frameworks. For example, iPhone application projects link by default to the Foundation, UIKit, and Core Graphics frameworks. Your code accesses the capabilities of a framework through the application programming interface (API), which is published by the framework through its header files. Because the library is dynamically shared, multiple applications can access the framework code and resources simultaneously. The system loads the code and resources of a framework into memory, as needed, and shares the one copy of a resource among all applications.
+
+---
+
 ## History Lesson
 
 Phil Pan [writes on Alex4D's Facebook Page](https://www.facebook.com/Alex4D/posts/2875905815768477?comment_id=2878510342174691&comment_tracking=%7B%22tn%22%3A%22R%22%7D):
@@ -31,7 +37,7 @@ Contains `CompressorKit.bundle` - which can also be found in Compressor and Moti
 
 ### FCP-DAL
 
-Contains `ACD.plugin` - some kind of CoreMediaIO plugin - not exactly sure what it does.
+Contains `ACD.plugin` - a CoreMediaIO plugin that enables the "A/V Output" feature in Final Cut Pro.
 
 The CoreMediaIO Device Abstraction Layer (DAL) is analogous to CoreAudio’s Hardware Abstraction Layer (HAL). Just as the HAL deals with audio streams from audio hardware, the DAL handles video (and muxed) streams from video devices.
 
@@ -124,7 +130,7 @@ It also contains the following Frameworks:
 
 #### DeepSkyLite
 
-This framework seems to be the database engine for Final Cut Pro?
+This framework seems to be the Core Data interface for Final Cut Pro. It contains the Compiled Core Data Models.
 
 #### FaceCoreEmbedded
 

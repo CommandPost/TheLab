@@ -14,6 +14,7 @@
 * [Debug Preferences](finalcutpro/debug-preferences/README.md)
 * [ProService](finalcutpro/proservice/README.md)
 * [Application Bundle](finalcutpro/application-bundle/README.md)
+* [Library Bundle](finalcutpro/library/README.md)
 * [FCPXML](finalcutpro/fcpxml/README.md)
 * [iXML](finalcutpro/ixml/README.md)
 
