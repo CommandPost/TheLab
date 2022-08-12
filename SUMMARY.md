@@ -18,6 +18,10 @@
 * [FCPXML](finalcutpro/fcpxml/README.md)
 * [iXML](finalcutpro/ixml/README.md)
 
+## Motion
+
+* [Variables](motion/variables/README.md)
+
 ## Discussions
 
 * [Legacy Media in Final Cut Pro](discussions/legacy/README.md)
